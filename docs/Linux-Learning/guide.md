@@ -1,8 +1,8 @@
-# This is Linux
+# Tests of docsify plugins
 
 > An awesome project.
 
-```python
+```python [copyCode]
 a = 10
 print(a)
 
