@@ -1,3 +1,7 @@
-* [首页](./docs/Linux-Learning/) 
+* [我的主页](./docs/README/) 
 
-    * [指南](./docs/Linux-Learning/guide)
+  * [学习笔记](./docs/StudyNotes/README)
+
+    * [Linux-学习](./docs/StudyNotes/Linux-Learning/README)
+
+

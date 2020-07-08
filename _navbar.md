@@ -9,4 +9,4 @@
 * 配置
   * [配置项](zh-cn/configuration.md)
   * [主题](zh-cn/themes.md)
-* [:us:, :uk:](/)
+  * [:us:, :uk:](/)
