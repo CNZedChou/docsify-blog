@@ -1,4 +1,4 @@
-* [我的主页](./docs/README/) 
+* [我的主页](./docs/README) 
 
   * [学习笔记](./docs/StudyNotes/README)
 
