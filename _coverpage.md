@@ -1,3 +1,3 @@
 ![](_media/bg.jpg) 
 
-#  **[Get Started](#README)**
+#  **[Get Started](./README)**
