@@ -1,4 +1,4 @@
-* [我的主页](./docs/README) 
+* [我的主页](./docs/README "绸载德的博客") 
 
   * [学习笔记](./docs/StudyNotes/README "绸载德的学习笔记")
 
