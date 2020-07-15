@@ -22,11 +22,11 @@ Linux 的发行版说简单点就是将 Linux 内核与应用软件做一个打�
 
 从Linux Kernel 3.0 开始已经舍弃奇数,偶数的内核版本规划,新的规划使用主线版本(MainLine)为依据,并提供长期支持版本来加强某些功能的持续维护.
 
-![Linux 内核](_media/linux-kernel.jpg)
+![Linux 内核](_media/note00/linux-kernel.jpg)
 
 目前市面上较知名的发行版有：Ubuntu,RedHat,CentOS,Debian,Fedora,SuSE,OpenSUSE,Arch Linux,SolusOS 等.
 
-![Linux 发行版本](_media/linux-version.jpg)
+![Linux 发行版本](_media/note00/linux-version.jpg)
 
 > ### 1.1.4 Linux应用领域
 
@@ -81,7 +81,7 @@ Linux 的发行版说简单点就是将 Linux 内核与应用软件做一个打�
 
 Linux的安装步骤比较繁琐,推荐使用云服务器,建议使用华为云,可以免费试用,每天早上9：30开抢.
 
-![华为云ecs服务器试用](_media/华为云试用截图.png)
+![华为云ecs服务器试用](_media/note00/华为云试用截图.png)
 
 1. 购买服务器,链接:<https://activity.huaweicloud.com/free_test/index.html?ggw_hd#individual>
 
@@ -89,13 +89,13 @@ Linux的安装步骤比较繁琐,推荐使用云服务器,建议使用华为云,
 
 3. 可以自定义设置华为云的安全组,添加需要开放的端口,否则外界无法访问.
 
-    ![云服务器安全组](_media/服务器安全组.png)
+    ![云服务器安全组](_media/note00/服务器安全组.png)
 
 4. 使用xShell工具(使用xShell必须开放22端口)进行远程连接,或者使用华为云的网页远程登陆.
 
-    网页远程登录 ![网页远程登录](_media/网页远程登陆.png)
+    网页远程登录 ![网页远程登录](_media/note00/网页远程登陆.png)
 
-    xShell远程登录 ![xShell远程登陆](_media/xshell远程连接.png)
+    xShell远程登录 ![xShell远程登陆](_media/note00/xshell远程连接.png)
 
 > ### 1.2.2 xShell相关信息
 
@@ -103,9 +103,9 @@ Linux的安装步骤比较繁琐,推荐使用云服务器,建议使用华为云,
 
 - 使用xftp上传文件
 
-  - ![xFtp位置](_media/xftp位置.png)
+  - ![xFtp位置](_media/note00/xftp位置.png)
 
-  - ![xftp概述](_media/xftp概述.png)
+  - ![xftp概述](_media/note00/xftp概述.png)
 
 ## 1.3 Linux启动流程
 
@@ -146,7 +146,7 @@ Linux的安装步骤比较繁琐,推荐使用云服务器,建议使用华为云,
 
     - 切换运行级别 : init 级别
 
-    ![系统运行界面](_media/runlevel.png)
+    ![系统运行界面](_media/note00/runlevel.png)
 
 - 根据对应的运行级别,查找对应的脚本文件.例如,运行3级别,查找/etc/rc3.d目录,启动该目录下的相关服务
   - 这些文件夹下的init脚本都有一些特别的名字,命名都以S(start),K(kill)或D(disable)开头,后面跟一个数字.当init进入一个运行等级的时候,他会按照数字顺序运行所有以K开头的脚本并传入stop参数,除非对应的init脚本在前一个运行等级中没有启动.然后init按照数字吮吸运行所有以S开头的脚本并传入start参数.任何以D开头的init脚本都会被忽略.这让你可以在指定的运行等级禁止一个脚本,或者你也可以仅仅移除全部符号链接.

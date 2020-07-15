@@ -6,5 +6,5 @@
 
     * [一、Linux的规则和安装](./docs/StudyNotes/Linux-Learning/LinuxNote00 "Linux的规则和安装")
 
-    * [二、Linux的文件、目录与磁盘格式](./docs/StudyNotes/Linux-Learning/LinuxNote01 "Linux文件、目录与磁盘格式")
+    * [二、Linux的目录、文件与磁盘格式](./docs/StudyNotes/Linux-Learning/LinuxNote01 "Linux目录、文件与磁盘格式")
 
