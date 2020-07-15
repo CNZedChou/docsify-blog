@@ -1,11 +1,10 @@
 * [我的主页](./docs/README "绸载德的博客") 
 
-  * [学习笔记](./docs/StudyNotes/README "绸载德的学习笔记")
+* 学习笔记
 
-    * [Linux-学习](./docs/StudyNotes/Linux-Learning/README "Linux的学习笔记")
+  * Linux学习
 
-      * [Linux-00Linux概述](./docs/StudyNotes/Linux-Learning/00Linux概述 "Linux-00Linux概述")
+    * [一、Linux的规则和安装](./docs/StudyNotes/Linux-Learning/LinuxNote00 "Linux的规则和安装")
 
-      * [Linux-01环境配置](./docs/StudyNotes/Linux-Learning/01环境配置 "Linux-01环境配置")
+    * [二、Linux的文件、目录与磁盘格式](./docs/StudyNotes/Linux-Learning/LinuxNote01 "Linux文件、目录与磁盘格式")
 
-      * [Linux-02启动流程](./docs/StudyNotes/Linux-Learning/02启动流程 "Linux-02启动流程")
