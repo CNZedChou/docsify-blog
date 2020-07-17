@@ -155,7 +155,7 @@ su -
 ls -al
 ```
 
-![](_media/note01/Linux文件属性.png)
+![Linux文件属性](_media/note01/Linux文件属性.png)
 
 1. 文件的类型与权限：例如[-rwxrwx---]
 
