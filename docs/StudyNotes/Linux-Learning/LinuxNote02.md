@@ -78,4 +78,35 @@ cd ../cron
 
 ## 3.2 文件与目录的基本管理
 
-    last modified:2020=07-17
+    last modified:2020=07-18
+
+- **ls**: 文件与目录的查看
+
+    ```bash
+    ls [-aAdfFhilnrRSt] 文件或目录名称
+    ls [--color={never,auto,always}] 文件或目录名称
+    ls [--full-time] 文件或目录名称
+    # 选项与参数(常用)
+    # -a: 全部的文件，连同隐藏文件一起列出来
+    # -d: 仅列出目录本身，而不是列出目录内的文件数据
+    # -l: 详细信息显示，包含文件的属性与权限等数据
+    ```
+
+    当只执行ls的时候，默认显示的只有非隐藏文件的文件名、以文件名进行排序以及文件名代表的颜色
+
+  - 将家目录下的所有文件列出来(含属性与隐藏文件)
+
+    ![ls -al命令](_media/note02/ls-al.png)
+
+  - 不显示颜色，但显示该文件名代表的类型
+
+    ![ls -alF命令](_media/note02/ls-alF.png)
+
+  - 显示完整的文件修改时间
+
+    ![ls -al --full-time 命令](_media/note02/ls-al-full.png)
+
+- **cp**: 复制文件或目录(copy)
+
+    ```bash
+    
